@@ -1,0 +1,21 @@
+.actions {
+  display: flex;
+  width: 800px;
+  margin: 40px auto;
+  padding-bottom: 40px;
+  border-bottom: 2px solid #999;
+  align-items: center;
+}
+
+.chartSwitcher {
+  margin-right: 40px;
+  
+  button {
+    margin-right: 4px;
+  }
+}
+
+.clearAll {
+  flex-grow: 1;
+}
+

@@ -1,0 +1,139 @@
+files:
+  include: 'src/**/*.scss'
+options:
+  formatter: stylish
+  merge-default-rules: false
+rules:
+  border-zero:
+    - 1
+    - convention: none
+  brace-style:
+    - 1
+    - allow-single-line: false
+  class-name-format:
+    - 0
+    - convention: hyphenatedlowercase
+  empty-line-between-blocks:
+    - 1
+    - ignore-single-line-rulesets: true
+  final-newline:
+    - 1
+    - include: true
+  force-attribute-nesting: 1
+  force-element-nesting: 1
+  force-pseudo-nesting: 1
+  function-name-format:
+    - 1
+    - allow-leading-underscore: true
+      convention: hyphenatedlowercase
+  hex-length:
+    - 1
+    - style: long
+  hex-notation:
+    - 1
+    - style: lowercase
+  id-name-format:
+    - 0
+    - convention: hyphenatedlowercase
+  leading-zero:
+    - 1
+    - include: true
+  mixin-name-format:
+    - 1
+    - allow-leading-underscore: true
+      convention: hyphenatedlowercase
+  nesting-depth:
+    - 1
+    - max-depth: 4
+  no-color-keyword: 0
+  no-duplicate-properties: 1
+  no-ids: 1
+  no-important: 1
+  no-invalid-hex: 1
+  no-mergeable-selectors: 1
+  no-misspelled-properties:
+    - 1
+    - extra-properties:
+        - '-moz-osx-font-smoothing'
+        - '-webkit-font-smoothing'
+  no-qualifying-elements:
+    - 1
+    - allow-element-with-attribute: true
+      allow-element-with-class: true
+      allow-element-with-id: false
+  no-trailing-zero: 1
+  placeholder-name-format:
+    - 0
+    - convention: hyphenatedlowercase
+  property-sort-order:
+    - 1
+    - order:
+        - content
+        - position
+        - top
+        - right
+        - bottom
+        - left
+        - display
+        - float
+        - width
+        - max-width
+        - min-width
+        - height
+        - max-height
+        - min-height
+        - line-height
+        - margin
+        - margin-top
+        - margin-right
+        - margin-bottom
+        - margin-left
+        - padding
+        - padding-top
+        - padding-right
+        - padding-bottom
+        - padding-left
+        - border
+        - border-top
+        - border-right
+        - border-bottom
+        - border-left
+        - border-width
+        - border-style
+        - border-color
+        - border-radius
+        - font-family
+        - font-size
+        - font-weight
+        - font-style
+        - color
+        - text-align
+        - text-decoration
+        - vertical-align
+  quotes:
+    - 1
+    - style: single
+  shorthand-values: 1
+  single-line-per-selector: 1
+  space-after-bang:
+    - 1
+    - include: false
+  space-after-colon: 1
+  space-after-comma: 1
+  space-before-bang:
+    - 1
+    - include: true
+  space-before-brace:
+    - 1
+    - include: true
+  space-before-colon: 1
+  space-between-parens:
+    - 1
+    - include: false
+  trailing-semicolon: 1
+  url-quotes: 0
+  variable-name-format:
+    - 1
+    - allow-leading-underscore: true
+      convention: hyphenatedlowercase
+  zero-unit: 1
